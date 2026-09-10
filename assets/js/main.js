@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu-button').forEach(button=>button.addEventListener('click',()=>{const nav=document.getElementById('main-nav');const open=nav.classList.toggle('open');button.setAttribute('aria-expanded',String(open));}));document.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.style.display='none'}));
